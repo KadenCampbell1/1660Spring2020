@@ -1,0 +1,73 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "AxelsAndTread": {
+            "shader": "Main shader"
+        },
+        "Chasis": {
+            "shader": "Main shader"
+        },
+        "Crane": {
+            "shader": "Main shader"
+        },
+        "CraneToBodyAttatchment": {
+            "shader": "Main shader"
+        },
+        "DriverSideBody": {
+            "shader": "Main shader"
+        },
+        "Extras": {
+            "shader": "Main shader"
+        },
+        "MiddleAndBackBody": {
+            "shader": "Main shader"
+        },
+        "PassengerSideBody": {
+            "shader": "Main shader"
+        },
+        "Platforms": {
+            "shader": "Main shader"
+        },
+        "Rails": {
+            "shader": "Main shader"
+        },
+        "Stairs": {
+            "shader": "Main shader"
+        },
+        "WindowGrates": {
+            "shader": "Main shader"
+        }
+    }
+}

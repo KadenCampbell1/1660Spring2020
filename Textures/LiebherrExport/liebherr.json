@@ -33,6 +33,9 @@
         }
     },
     "texturesets": {
+        "AxelsAndTread": {
+            "shader": "Main shader"
+        },
         "Chasis": {
             "shader": "Main shader"
         },
@@ -42,25 +45,28 @@
         "CraneToBodyAttatchment": {
             "shader": "Main shader"
         },
+        "DriverSideBody": {
+            "shader": "Main shader"
+        },
         "Extras": {
             "shader": "Main shader"
         },
-        "LeftAndBackBody": {
+        "MiddleAndBackBody": {
             "shader": "Main shader"
         },
-        "LeftAxle": {
+        "PassengerSideBody": {
             "shader": "Main shader"
         },
         "Platforms": {
             "shader": "Main shader"
         },
-        "RightAxle": {
-            "shader": "Main shader"
-        },
-        "RightMiddleBody": {
+        "Rails": {
             "shader": "Main shader"
         },
         "Stairs": {
+            "shader": "Main shader"
+        },
+        "WindowGrates": {
             "shader": "Main shader"
         }
     }
