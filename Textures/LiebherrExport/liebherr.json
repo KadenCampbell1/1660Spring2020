@@ -66,6 +66,15 @@
         "Stairs": {
             "shader": "Main shader"
         },
+        "TubesExtrasAndSteel": {
+            "shader": "Main shader"
+        },
+        "TubesRubber": {
+            "shader": "Main shader"
+        },
+        "TubesSteel": {
+            "shader": "Main shader"
+        },
         "WindowGrates": {
             "shader": "Main shader"
         }
