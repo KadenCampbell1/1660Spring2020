@@ -36,6 +36,9 @@
         "AxelsAndTread": {
             "shader": "Main shader"
         },
+        "BlackBoxStuff": {
+            "shader": "Main shader"
+        },
         "Chasis": {
             "shader": "Main shader"
         },
@@ -61,6 +64,9 @@
             "shader": "Main shader"
         },
         "Rails": {
+            "shader": "Main shader"
+        },
+        "Scoop": {
             "shader": "Main shader"
         },
         "Stairs": {
