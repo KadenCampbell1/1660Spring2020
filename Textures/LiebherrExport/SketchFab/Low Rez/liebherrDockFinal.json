@@ -1,0 +1,117 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.309999942779541,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "AxelsAndTread": {
+            "shader": "Main shader"
+        },
+        "Barge": {
+            "shader": "Main shader"
+        },
+        "BlackBoxStuff": {
+            "shader": "Main shader"
+        },
+        "BoatFlat": {
+            "shader": "Main shader"
+        },
+        "BoatTower": {
+            "shader": "Main shader"
+        },
+        "CementGround": {
+            "shader": "Main shader"
+        },
+        "Chasis": {
+            "shader": "Main shader"
+        },
+        "CoalPiles": {
+            "shader": "Main shader"
+        },
+        "Crane": {
+            "shader": "Main shader"
+        },
+        "CraneToBodyAttatchment": {
+            "shader": "Main shader"
+        },
+        "DockItems": {
+            "shader": "Main shader"
+        },
+        "DriverSideBody": {
+            "shader": "Main shader"
+        },
+        "Extras": {
+            "shader": "Main shader"
+        },
+        "Ground": {
+            "shader": "Main shader"
+        },
+        "MiddleAndBackBody": {
+            "shader": "Main shader"
+        },
+        "PassengerSideBody": {
+            "shader": "Main shader"
+        },
+        "PipeAndWater": {
+            "shader": "Main shader"
+        },
+        "Platforms": {
+            "shader": "Main shader"
+        },
+        "Rails": {
+            "shader": "Main shader"
+        },
+        "Scoop": {
+            "shader": "Main shader"
+        },
+        "ScoopedCoal": {
+            "shader": "Main shader"
+        },
+        "Stairs": {
+            "shader": "Main shader"
+        },
+        "TireInner": {
+            "shader": "Main shader"
+        },
+        "TireOuter": {
+            "shader": "Main shader"
+        },
+        "TubesExtrasAndSteel": {
+            "shader": "Main shader"
+        },
+        "TubesRubber": {
+            "shader": "Main shader"
+        },
+        "TubesSteel": {
+            "shader": "Main shader"
+        },
+        "UnderWaterGround": {
+            "shader": "Main shader"
+        },
+        "Water": {
+            "shader": "Main shader"
+        },
+        "WindowGrates": {
+            "shader": "Main shader"
+        }
+    }
+}
